@@ -1,0 +1,21 @@
+# ignore these false positives from the link checker housekeeper
+
+# links referred to in documentation, not intended as actual links
+http://localhost
+http://127.0.0.1
+
+# incorrectly get 'Network error: Forbidden'
+https://www.deviantart.com
+
+# trips up on the redirect page scripts
+docs/_layouts/%7B%7B%20page.redirect_to%20%7D%7D
+
+# script in td.vue/public/index.html
+BASE_URL
+
+# ignore references to releases in template
+github.com/OWASP/threat-dragon/releases/
+github.com/OWASP/threat-dragon/archive/
+
+# ignore LINDDUN site because it occasionally times out
+https://www.linddun.org/

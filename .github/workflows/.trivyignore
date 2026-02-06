@@ -1,0 +1,9 @@
+# ignoring these vulnerabilities in zlib,
+# there are no updates to zlib and so these are unlikely to be fixed
+CVE-2018-25032
+CVE-2022-37434
+
+# https://avd.aquasec.com/nvd/cve-2023-28155
+# request version prior to 2.88.2
+# this vulnerability is for the build system, not run time, so ignore
+CVE-2023-28155

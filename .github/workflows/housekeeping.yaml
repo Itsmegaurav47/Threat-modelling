@@ -60,7 +60,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4.2.0
+        uses: actions/checkout@v6.0.3
         with:
           ref: main
 
@@ -89,7 +89,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4.2.0
+        uses: actions/checkout@v6.0.3
         with:
           ref: main
 
@@ -114,7 +114,7 @@ jobs:
 
     steps:
       - name: Checkout markdown
-        uses: actions/checkout@v4.2.0
+        uses: actions/checkout@v6.0.3
 
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2.2.0
